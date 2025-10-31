@@ -1,0 +1,40 @@
+{
+  "displayTime": 5000,
+  "shuffleCategories": true,
+  "categories": [
+    {
+      "name": "Nature",
+      "images": [
+        "path/to/nature/image1.jpg",
+        "path/to/nature/image2.jpg",
+        "path/to/nature/image3.jpg"
+      ]
+    },
+    {
+      "name": "Cities",
+      "images": [
+        "path/to/cities/image1.jpg",
+        "path/to/cities/image2.jpg",
+        "path/to/cities/image3.jpg"
+      ]
+    },
+    {
+      "name": "Animals",
+      "images": [
+        "path/to/animals/image1.jpg",
+        "path/to/animals/image2.jpg",
+        "path/to/animals/image3.jpg"
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Default",
+      "cycle": [
+        "Nature",
+        "Cities",
+        "Animals"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "categorized-slideshow",
+  "version": "1.0.0",
+  "description": "A tool that displays precompiled categorized image folders in a slideshow format with customizable display times and cycles.",
+  "main": "src/main/main.ts",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "dev": "webpack --mode development",
+    "lint": "eslint . --ext .ts,.tsx",
+    "test": "jest"
+  },
+  "keywords": [
+    "electron",
+    "slideshow",
+    "images",
+    "categories",
+    "presets"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^25.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-scripts": "5.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^27.0.0",
+    "electron-builder": "^23.0.0"
+  },
+  "homepage": "https://github.com/yourusername/categorized-slideshow",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/categorized-slideshow.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/categorized-slideshow/issues"
+  }
+}

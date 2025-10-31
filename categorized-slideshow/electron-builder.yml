@@ -1,0 +1,37 @@
+appId: com.example.categorizedslideshow
+productName: Categorized Slideshow
+copyright: Your Name
+directories:
+  output: dist
+files:
+  - src/**/* 
+  - presets/**/* 
+  - package.json
+  - tsconfig.json
+  - README.md
+  - .vscode/devcontainer.json
+  - electron-builder.yml
+mac:
+  category: public.app-category.photography
+  target:
+    - target: dmg
+      arch: x64
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+linux:
+  target:
+    - target: AppImage
+      arch:
+        - x64
+  category: Graphics
+  desktop:
+    Name: Categorized Slideshow
+    Comment: A tool for displaying categorized image folders in a slideshow format.
+    Exec: electron . 
+    Icon: build/icon.png
+    Type: Application
+    StartupNotify: true
+    Categories: Graphics;Viewer;

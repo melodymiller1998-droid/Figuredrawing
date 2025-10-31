@@ -1,0 +1,28 @@
+{
+  "presetName": "Sample Preset",
+  "displayTime": 5,
+  "shuffleCategories": true,
+  "categories": [
+    {
+      "name": "Nature",
+      "images": [
+        "path/to/nature/image1.jpg",
+        "path/to/nature/image2.jpg"
+      ]
+    },
+    {
+      "name": "Cities",
+      "images": [
+        "path/to/cities/image1.jpg",
+        "path/to/cities/image2.jpg"
+      ]
+    },
+    {
+      "name": "Animals",
+      "images": [
+        "path/to/animals/image1.jpg",
+        "path/to/animals/image2.jpg"
+      ]
+    }
+  ]
+}
