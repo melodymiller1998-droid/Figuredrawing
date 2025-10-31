@@ -1,7 +1,7 @@
 {
   "name": "categorized-slideshow",
   "version": "1.0.0",
-  "type": "module"
+  "type": "module",
   "description": "A tool that displays precompiled categorized image folders in a slideshow format with customizable display times and cycles.",
   "main": "src/main/main.ts",
   "scripts": {
